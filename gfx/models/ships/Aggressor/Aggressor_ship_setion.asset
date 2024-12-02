@@ -78,6 +78,7 @@ entity = {
 		event = { time = 9.5 node = "explosion_locator_05" particle = "kuat_s_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
 		event = { time = 12.5 node = "ship_main" particle = "kuat_sd_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "amb_titan_ship_death" } }
 	}
+	game_data = { size = 15 }
 }
 
 entity = {
@@ -92,9 +93,6 @@ entity = {
 		start_event = { node = "E02" particle = "SG_01_2_0_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
 		start_event = { node = "E03" particle = "SG_01_2_0_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
 		start_event = { node = "E04" particle = "SG_01_2_0_ship_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
-		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_01" } }
-		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_02" } }
-		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_03" } }
 	}
 	state = { name = "moving" state_time = 5
 		event =  { trigger_once = yes sound = { soundeffect = "moving_out_titan" } }
@@ -108,5 +106,5 @@ entity = {
 	}
 	state = { name = "death" looping = no state_time = 5 }
 		
-	game_data = { size = 35 }
+	game_data = { size = 15 }
 }
