@@ -1,5 +1,5 @@
 entity = {
-	name = "sector_entity"
+	name = "kuat_sector_entity"
 	pdxmesh = "kuat_fleet_signal_mesh"
 	#attach = { root = high_Imperial_star_destroyer_ftl_entity }
 	default_state = "idle"
@@ -72,7 +72,7 @@ entity = {
 }
 
 entity = {
-	name = "Sector_stardestroyer_entity"
+	name = "kuat_Sector_stardestroyer_entity"
 	pdxmesh = "Sector_stardestroyer_mesh"
 	scale = 1.0
 	
